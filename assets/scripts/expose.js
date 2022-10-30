@@ -15,7 +15,6 @@ function hornImageAudio() {
   var image = document.querySelector("[alt='No image selected']");
   var selected = document.getElementById("horn-select");
   var selectedValue = selected.value;
-
   var audioFile = document.querySelector("[class='hidden']");
 
   if(selectedValue == "air-horn") {

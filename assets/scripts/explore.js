@@ -38,7 +38,6 @@ function playWords() {
       utterThis.voice = voices[i];
     }
   }
-
   
   image.src = "assets/images/smiling-open.png";
   synth.speak(utterThis);
